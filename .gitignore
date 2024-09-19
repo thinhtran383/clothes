@@ -1,0 +1,49 @@
+# Thư mục vendor chứa các gói được cài đặt thông qua Composer
+/vendor
+
+# Thư mục chứa các tệp biên dịch và cache của framework Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Các tệp tạm thời của IDE
+.idea
+.vscode
+
+# Tệp môi trường chứa thông tin cấu hình bảo mật
+.env
+
+
+# Thư mục chứa các tệp cache của Composer
+composer.lock
+composer.phar
+
+# Thư mục chứa các tệp biên dịch của NPM và Yarn
+npm-debug.log
+yarn-error.log
+
+# Các tệp cache của PHPStorm và các tệp editor khác
+.phpunit.result.cache
+.phpstorm.meta.php
+.DS_Store
+Thumbs.db
+*.swp
+
+# Tệp PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Tệp được tạo khi chạy Artisan
+/.vapor
+Homestead.yaml
+Homestead.json
+
+# Tệp nhật ký lỗi
+*.log
